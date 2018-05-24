@@ -1,0 +1,61 @@
+<html>
+<head>
+<link href="home.css" rel='stylesheet'>
+<meta charset="utf-8">
+<title>Sticky Navi</title>
+<link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+$(window).on('scroll',function(){
+  if($(window).scrollTop())
+  {
+    $('nav').addClass('black');
+  }
+  else {
+
+      $('nav').removeClass('black');
+    }
+
+})
+</script>
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+       <div class="logo">Mamu Gee</div>
+          <ul>
+                <li><a href="#" class="cool-link">Home</a></li>
+                <li><a href="menu.html" class="cool-link">Menu</a></li>
+                <li><a href="index.php" class="cool-link">Order</a></li>
+                <li><a href="contact.html" class="cool-link">Contact</a></li>
+                <li><a class="active" href="login.html">Log In</a></li>
+          </ul>
+      </nav>
+<section class="sec1"></section>
+
+<section class="content"><p>Halia – Malay for ginger – is located in the one-hectare Ginger Garden of the Singapore Botanic Gardens where over 250 species of gingers with their stunning foliage and colourful flowers thrive. The construction of Halia was carried out simultaneously with the development of the Ginger Garden in the year 2000. Careful consideration was given to the special park setting, such that architecture conformed to the contours of the land, the dignity of mature trees and the preservation of heritage.</p>
+
+<p>In 2001, the Halia was officially opened. The result is an unobtrusive dining room with full height glass windows, beckoning the greenery indoors, and allowing guests to dine in the Garden whilst still comfortably ensconced in cool surroundings. Decades-old majestic palm trees stand like sentries, guardian-witness to the earthy beauty that is the Singapore Botanic Gardens.</p>
+</section>
+
+<section>
+  <table>
+  <tr>
+  <th>Days</th>
+  <th>Operation Hours</th>
+  </tr>
+  <tr>
+  <td>Monday-Thursday</td>
+  <td>11 a.m - 9 p.m</td>
+  </tr>
+  <tr>
+  <td>Friday-Sunday</td>
+  <td>11 a.m -12 p.m</td>
+  </tr>
+  </table>
+</section>
+</div>
+
+
+</body>
+</html>
